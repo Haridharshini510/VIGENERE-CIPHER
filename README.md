@@ -16,6 +16,7 @@ column indices respectively.
 STEP-7: The junction character where these two meet forms the cipher character. 
 STEP-8: Repeat the above steps to generate the entire cipher text. 
 # PROGRAM: 
+```
 #include <stdio.h> 
 #include <string.h> 
 void vigenereCipher(char *text, char *key, int decrypt) { 
@@ -32,7 +33,8 @@ printf("Encrypted Message: %s\n", text);
 vigenereCipher(text, key, 1); 
 printf("Decrypted Message: %s\n", text); 
 return 0; 
-} 
+}
+```
 # OUTPUT: 
 <img width="964" height="328" alt="image" src="https://github.com/user-attachments/assets/de871c19-b235-4916-97ce-af2be3fdd4a7" />
 
